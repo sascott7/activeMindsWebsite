@@ -1,0 +1,474 @@
+<!doctype html>
+<html>
+<head>
+<!-- 
+Darker    : #2d8080
+Main	  : #328f8f
+Secondary : #41a39d
+Light	  : #ebfcfc
+Secondary Light: #daf2f2‬
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+
+TODO:
+Add tracking
+Add crisis banner
+Add message for them to send us a resource we don't have listed
+Add footer to match other pages
+-->
+	
+	
+<link href="https://fonts.googleapis.com/css?family=Playfair Display" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Ovo" rel="stylesheet">
+<style>
+
+	
+	
+h1 {
+	font-family: 'Playfair Display';
+	font-weight: 500;
+	font-size: 48px;
+	font-weight: 500;
+	color: #2d8080;
+	text-align: center;
+	width: 100%;
+	margin: 0px;
+	padding: 2.5% 0%;
+
+}
+
+	
+.development {
+	width:60%;
+	float:center;
+	margin: 1.5% 20% ;	
+	background-color: #daf2f2‬;
+  	border: 0px solid #9CE2D8;
+	border-radius: 4px;
+	text-align: center;
+    color: #328f8f;
+	color: #C80001;
+    font-family: 'Ovo';
+    font-weight: 300;
+    font-size: 16px;
+}
+	
+.div_home {
+	width:23%;
+	float:left;
+	margin: 1.5% 0.5% ;	
+	background-color: #BFEDE6;
+  	border: 2px solid #9CE2D8;
+	border-radius: 10px;
+}
+	
+.div_home table {
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 0px 0px;
+}
+	
+.div_home th {
+  background: #8DDED5;
+  padding: 0px 0px 4px 0px;
+  text-align: center;
+  color: #328f8f;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 32px;
+  border-radius: 7px 7px 0px 0px; 
+}
+
+.div_home td {
+  text-align: center;
+  font-family: 'Ovo';
+  font-weight: 400;
+  padding: 5px;
+}
+	
+.div_home tr:nth-child(odd){
+	#background: #C4EEEE;
+}	
+	
+
+a {
+	font-size: 18px;
+	}	
+
+a:link{ color: #41a39d; }	
+/* visited link */
+a:visited {
+	color: #41a39d;
+}
+/* mouse over link */
+a:hover {
+	color: #226464;
+}
+/* selected link */
+a:active {
+	color: #41a39d;
+}
+	
+#common th {    background: #A0E4E4;}
+#other th {    background: #A0E4E4;}		
+
+#general {
+	margin: 1.5% 0.5% 1.5% 2% ;	
+}
+	
+#common {
+	background-color: #d1f2f2;
+  	border: 2px solid #A1E4E4;
+}
+	
+#other {
+	background-color: #d1f2f2;
+  	border: 2px solid #A1E4E4;
+}
+	
+	
+.navigation {
+	width:12%; 
+	float:left;
+	margin: 1.5% 0.5% ;	
+	background-color: #BFEDE6;
+  	border: 2px solid #9CE2D8;
+	border-radius: 3px;
+}
+		
+.navigation table {
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 0px 0px;
+}
+	
+.navigation th {
+  background: #8DDED5;
+  padding: 0px 0px 4px 0px;
+  text-align: center;
+  color: #328f8f;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 26px;
+  border-radius: 1px 1px 0px 0px; 
+}
+
+.navigation td {
+  text-align: center;
+  font-family: 'Ovo';
+  font-weight: 400;
+  padding: 3px;
+}
+
+.navigation a {
+	font-size: 16px;
+	}	
+	
+	
+.div_page {
+	width:80%; 
+	float:left;
+	margin: 1.5% 0.5% ;	
+	background-color: #BFEDE6;
+  	border: 2px solid #9CE2D8;
+	border-radius: 10px;
+}
+	
+.div_page table {
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing: 0px 0px;
+}	
+	
+.div_page th {
+  padding: 10px 0px 5px 10px;
+  text-align: center;
+  color: #328f8f;
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  font-size: 26px;
+  border-radius: 1px 1px 0px 0px; 
+}
+	
+.div_page td {
+  text-align: left;
+  font-family: 'Ovo';
+  font-weight: 400;
+  padding: 4px 10px;
+}
+	
+	
+.sep td{   
+	border-bottom: 1.5px solid #9CE2D8;
+	padding-bottom: 20px;
+}
+	
+
+
+input {
+	background: #2d8080;
+	color: #ffffff;
+	border: thin #2d8080;
+	padding: 5px 8px;
+	border-radius: 5px; 
+	font-size: 18px;
+	font-family: 'Playfair Display';
+}
+	
+
+.button:hover {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0 0);
+}
+	
+	
+
+@media (max-device-width: 600px) {
+	.navigation {
+		text-align: center;
+		width:96%; 
+	
+		
+	}
+	
+	.div_home {
+      	width:96%;
+    }
+	
+	.div_page {
+		text-align: center;
+		width:96%;
+	}
+	
+	.div_page th {
+	  padding: 15px 0px 10px 10px;
+	  font-size: 32px;
+	}
+	
+	.div_page td {
+	  padding: 4px 20px;
+	}
+	
+	.div_page a {
+		font-size: 22px;
+	}
+	
+	input {
+		padding: 12px 20px;
+		border-radius: 15px; 
+		font-size: 24px;
+		font-family: 'Playfair Display';
+	}
+	
+}
+	
+	
+</style>
+
+
+<meta charset="utf-8" http-equiv="Content-Security-Policy" content="width=device-width, user-scalable=no">
+	
+<title>Resources</title>
+	
+	
+<script type="text/javascript">
+
+	var page = "home"; 
+	var last_page = "home";
+	
+	if (window.matchMedia('(max-device-width: 600px)').matches) {
+		var view = "mobile";	
+	}
+	else{
+		var view = "desktop";
+	}
+
+	
+	window.onload = function() {
+		
+	  let pages = ["on_campus_therapy", "helplines", "coping_skills", "managing_college", "supporting_others", "finding_other_resources", "anxiety", "adhd", "depression", "self_harm", "suicidal_thoughts", "addictions", "abusive_relationships", "codependency", "sexual_assault", "lgbtq", "minority_mental_health", "ptsd", "ocd", "autism", "bipolar", "schizophrenia"];
+		
+	  let general = ["on_campus_therapy", "helplines", "coping_skills", "managing_college", "supporting_others", "finding_other_resources"];
+	  let common = ["anxiety", "adhd", "depression", "self_harm", "suicidal_thoughts", "addictions"];
+	  let social = ["abusive_relationships", "codependency", "sexual_assault", "lgbtq", "minority_mental_health"];
+	  let other = ["ptsd", "ocd", "autism", "bipolar", "schizophrenia"];
+			
+	  let page_names = {"on_campus_therapy":"On-Campus Therapy", "helplines":"Helplines", "coping_skills":"Coping Skills", "managing_college":"Managing College", "supporting_others":"Supporting Others", "finding_other_resources":"Finding Other Resources", "anxiety":"Anxiety", "adhd":"ADHD", "depression":"Depression", "self_harm":"Self Harm", "suicidal_thoughts":"Suicidal Thoughts", "addictions":"Addictions", "abusive_relationships":"Abusive Relationships", "codependency":"Codependency", "sexual_assault":"Sexual Assault", "lgbtq":"LGBTQ", "minority_mental_health":"Minority Mental Health", "ptsd":"PTSD", "ocd":"OCD", "autism":"Autism", "bipolar":"Bipolar", "schizophrenia":"Schizophrenia"};
+		
+		
+	  pages.forEach(element => checkClick(element));
+	  	
+	  function checkClick(page_name){
+		  document.getElementById(page_name + "_button").onclick = function() {
+			return open_page(page_name);
+		  }	
+		  document.getElementById(page_name + "_button2").onclick = function() {
+			  return open_page(page_name);
+		  }	
+	  }
+	  
+	  function open_page(new_page) {
+		  last_page = page;
+		  page = new_page;
+		  
+		  if (last_page == "home") {
+			document.getElementById('home').style.display = 'none';			
+		  }
+		  
+		  if(general.includes(last_page)){
+		    document.getElementById('navigation_general').style.display = 'none';
+	  	  }
+		  if(common.includes(last_page)){
+		    document.getElementById('navigation_common').style.display = 'none';
+	      }
+		  if(social.includes(last_page)){
+		    document.getElementById('navigation_social').style.display = 'none';
+		  }
+		  if(other.includes(last_page)){
+		    document.getElementById('navigation_other').style.display = 'none';
+		  }
+		  
+		  
+		  pages.forEach(element => update(element));
+		  		  
+		  return false  
+	  }
+	  
+		
+	  function update(page_name) {
+		  
+		  if (last_page == page_name){
+			if (view == "desktop"){
+		  	  document.getElementById(last_page + '_desktop').style.display = 'none';			
+			}
+			else{
+		  	  document.getElementById(last_page + '_mobile').style.display = 'none';	
+			}
+		  }
+
+		  if (page == page_name){
+			document.getElementById('page_title').innerHTML = page_names[page];
+			//history.pushState(null, '', 'https://www.activemindsua.org/resources');
+			  
+			  
+			if(general.includes(page)){
+			  document.getElementById('navigation_general').style.display = 'block';
+		  	}
+		  	if(common.includes(page)){
+			  document.getElementById('navigation_common').style.display = 'block';
+		  	}
+			if(social.includes(page)){
+			  document.getElementById('navigation_social').style.display = 'block';
+		  	}
+			if(other.includes(page)){
+			  document.getElementById('navigation_other').style.display = 'block';
+		  	}
+		  
+			  
+			if (view == "desktop"){
+		  	  document.getElementById(page + '_desktop').style.display = 'block';				
+			}
+			else{
+			  document.getElementById(page + '_mobile').style.display = 'block';	
+			}
+		  }
+		    
+	  }
+		
+		
+		
+	}	
+</script>
+	
+	
+</head>
+
+<body style="background-color: #DAF2F2; margin: 0px;">
+	<div id="resources_header" style="background-color: #F2FFFF">
+		<h1 id = "page_title">Resources</h1>
+	</div>
+	
+	<div class="development">
+		!! The website is currently being updated. As such, there may be some bugs or other issues for the time being while we update to a new, more extensive website !!
+	</div>
+
+	<div id="home">
+		
+		<div class="div_home" id="general">
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th>General</th>
+					</tr>
+				</thead>
+					<tr><td style="padding-top: 10px"> <a id="on_campus_therapy_button" href="url">On-Campus Therapy</a> </td></tr>	
+					<tr><td> <a id="helplines_button" target="_self" href="https://www.activemindsua.org/resources">Helplines</a> </td></tr>	
+
+					<tr><td> <a id="coping_skills_button" href="url">Coping Skills</a> </td></tr>
+					<tr><td> <a id="managing_college_button" href="url">Managing College</a> </td></tr>
+					<tr><td> <a id="supporting_others_button" href="url">Supporting Others</a> </td></tr>
+					<tr><td style="padding-bottom: 15px"> <a id="finding_other_resources_button" href="url">Finding Other Resources</a> </td></tr>		
+			</table>
+
+		</div>
+
+		<div class="div_home" id="common">
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th>Common</th>
+					</tr>
+				</thead>
+					<tr><td style="padding-top: 10px"> <a id="anxiety_button" href="url">Anxiety</a> </td></tr>
+					<tr><td> <a id="adhd_button" href="url">ADHD</a> </td></tr>					
+					<tr><td> <a id="depression_button" href="url">Depression</a> </td></tr>	
+					<tr><td> <a id="self_harm_button" href="url">Self Harm</a> </td></tr>	
+					<tr><td> <a id="suicidal_thoughts_button" href="url">Suicidal thoughts</a> </td></tr>	
+					<tr><td style="padding-bottom: 15px"> <a id="addictions_button" href="url">Addictions</a> </td></tr>		
+			</table>
+
+		</div>
+
+		<div class="div_home" id="social">
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th>Social</th>
+					</tr>
+				</thead>
+					<tr><td style="padding-top: 10px"> <a id="abusive_relationships_button" href="url">Abuse Relationships</a> </td></tr>
+					<tr><td> <a id="codependency_button" href="url">Codependency</a> </td></tr>	
+					<tr><td> <a id="sexual_assault_button" href="url">Sexual Assault</a> </td></tr>	
+					<tr><td> <a id="lgbtq_button" href="url">LGBTQ</a> </td></tr>	
+					<tr><td style="padding-bottom: 15px"> <a id="minority_mental_health_button" href="url">Minority Mental Health</a> </td></tr>		
+			</table>
+
+		</div>
+
+		<div class="div_home" id="other">
+			<table style="width:100%">
+				<thead>
+					<tr>
+						<th>Other</th>
+					</tr>
+				</thead>
+					<tr><td style="padding-top: 10px"> <a id="ptsd_button" href="url">PTSD</a> </td></tr>
+					<tr><td> <a id="ocd_button" href="url">OCD</a> </td></tr>	
+					<tr><td> <a id="autism_button" href="url">Autism</a> </td></tr>	
+					<tr><td> <a id="bipolar_button" href="url">Bipolar</a> </td></tr>	
+					<tr><td style="padding-bottom: 15px"> <a id="schizophrenia_button" href="url">Schizophrenia</a> </td></tr>		
+			</table>
+
+		</div>		
+	
+	</div>
+
+</body>
+	
+</html>
+
+
+
+
